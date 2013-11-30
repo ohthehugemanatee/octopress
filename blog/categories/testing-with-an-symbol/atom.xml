@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Testing With an ! Symbol | OhTheHugeManatee]]></title>
+  <link href="https://ohthehugemanatee.org/blog/categories/testing-with-an-symbol/atom.xml" rel="self"/>
+  <link href="https://ohthehugemanatee.org/"/>
+  <updated>2013-11-30T13:46:48-05:00</updated>
+  <id>https://ohthehugemanatee.org/</id>
+  <author>
+    <name><![CDATA[Campbell Vertesi (ohthehugemanatee)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Testing the Markdown Posting]]></title>
+    <link href="https://ohthehugemanatee.org/blog/2013/11/30/testing-the-markdown-posting/"/>
+    <updated>2013-11-30T13:03:44-05:00</updated>
+    <id>https://ohthehugemanatee.org/blog/2013/11/30/testing-the-markdown-posting</id>
+    <content type="html"><![CDATA[<h1>Header goes here</h1>
+
+<p>This is my example post. It&rsquo;s in markdown, so hopefully the HTML will be well formatted.</p>
+
+<ul>
+<li>list 1</li>
+<li>list 2</li>
+<li>list 3</li>
+</ul>
+
+
+<p>And now for an ordered list.</p>
+
+<ol>
+<li>ordered list</li>
+<li>ordered list</li>
+<li>ordered list</li>
+</ol>
+
+
+<h2>Sub header</h2>
+
+<p>There&rsquo;s a bit more text.</p>
+
+<p>We&rsquo;ll try a code block now:</p>
+
+<p>``` php hook_form_alter example
+/<em>*
+ * Implements hook_form_alter()
+ </em>/
+function example_form_alter(&amp;$form, &amp;$form_state, $form_id) {
+  dpm($form, &lsquo;form&rsquo;);
+  if ($form_id == &lsquo;test_form_id&rsquo;) {</p>
+
+<pre><code>drupal_set_message('Testing Drupal_set_message.');
+</code></pre>
+
+<p>  }
+}
+```</p>
+
+<p>Or a code snippet included from another file:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Example Drupal .info file  (testing.info)</span> <a href='/downloads/code/testing.info'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="p">;</span> <span class="nv">$Id</span><span class="err">$</span>
+</span><span class='line'><span class="nx">name</span> <span class="o">=</span> <span class="nx">File</span> <span class="nx">exists</span> <span class="nx">Condition</span>
+</span><span class='line'><span class="nx">description</span> <span class="o">=</span> <span class="nx">Rules</span> <span class="nx">Condition</span> <span class="nx">which</span> <span class="nx">checks</span> <span class="nb">file</span> <span class="nx">fields</span> <span class="nx">to</span> <span class="nx">see</span> <span class="k">if</span> <span class="nx">the</span> <span class="nb">file</span> <span class="nx">actually</span> <span class="nx">exists</span><span class="o">.</span>
+</span><span class='line'><span class="nx">core</span> <span class="o">=</span> <span class="mf">7.</span><span class="nx">x</span>
+</span><span class='line'><span class="nx">package</span> <span class="o">=</span> <span class="nx">custom</span>
+</span><span class='line'><span class="nx">dependencies</span><span class="p">[]</span> <span class="o">=</span> <span class="nx">rules</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>
