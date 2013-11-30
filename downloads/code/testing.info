@@ -1,6 +1,0 @@
-; $Id$
-name = File exists Condition
-description = Rules Condition which checks file fields to see if the file actually exists.
-core = 7.x
-package = custom
-dependencies[] = rules
